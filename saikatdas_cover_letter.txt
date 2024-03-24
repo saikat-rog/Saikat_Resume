@@ -1,0 +1,16 @@
+Subject: Application for an internship in a preferable position of Android Development.
+
+Dear Hiring Professional,
+
+I am writing to express my interest in the internship at Google and prefer the position of Android Developer. 
+Currently, I am in 2nd year of my B. Tech majoring in Computer Science Engineering and Information and Technology, having a strong passion for Android development. I am confident in my ability to contribute effectively to your team.
+
+I am particularly skilled in Flutter technology and Java, with hands-on experience in designing and implementing a user-friendly mobile application that solved a problem of Attendance Spoofing at my University and also made it easy to manage student attendance data with a few more features. In my present course of study, I worked on a solution for which I developed an app that allows students to mark their attendance(prevents spoofing), keep their daily class attendance records, and allow teachers to manage the students' attendance data.
+
+My long-term career goals are to work with a company that offers challenges and develops employees, and this internship would help give me the knowledge and experience I need to achieve this.
+I would welcome the opportunity to discuss my experience in more detail and, of course, hear more about Google
+
+Thank you for considering my application.
+
+Regards,
+Saikat Das
