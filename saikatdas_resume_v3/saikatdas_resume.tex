@@ -1,0 +1,187 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Saikat Das} \\ \vspace{1pt}
+    \small 83340 66167 $|$ \href{mailto:saikat.rog@gmail.com}{\underline{saikat.rog@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/thissaikat/}{\underline{linkedin.com/in/thissaikat}} $|$
+    \href{https://github.com/saikat-rog}{\underline{github.com/saikat-rog}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Engineering and Management}{Kolkata, India}
+      {Bachelor of Technology in Computer Science Engineering}{Aug. 2022 -- Present (Expected: 2026)}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Full Stack Developer}{June 2024 -- Present}
+      {CloudFixMedia}{Kolkata}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented a client communication system, improving engagement and response times.}
+        \resumeItem{Engineered a full-stack web application using React, Node.js, PostgreSQL, and Docker to create a seamless client interaction platform.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {DSA Instructor}{August 2023 -- July 2024}
+      {Edzie}{Kolkata}
+      \resumeItemListStart
+        \resumeItem{Guided 5 batches of 80+ students in their DSA learning.}
+        \resumeItem{Improved students' logic building and problem-solving skills.}
+        \resumeItem{Explored diverse methods to mentor learners, leveraging the support of teaching assistants.}
+        \resumeItem{Developed teamwork skills and gained in-depth knowledge of organizational management.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{AttendMe} $|$ \emph{Flutter, Dart, Firebase Database, Node.js, Git}}{June 2023 -- Present}
+        \resumeItemListStart
+          \resumeItem{Developed an attendance management system accessible to both students and teachers.}
+          \resumeItem{Designed a 'scan and attend' feature enabling quick attendance tracking using QR code scanning.}
+          \resumeItem{Enhanced security by verifying location with GPS and controlling developer mode and system settings.}
+        \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{RxMind} $|$ \emph{React, Tailwind, Node, Express, REST API, MongoDB, Git}}{May 2024 -- Present}
+        \resumeItemListStart
+          \resumeItem{Developed a platform for healthcare providers to manage patient data efficiently.}
+          \resumeItem{Enabled users to access their medical history for improved diagnosis.}
+          \resumeItem{Provided users with the convenience of booking appointments with nearby doctors.}
+          \resumeItem{Implemented a feature for users to estimate treatment costs.}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, Java, Dart, Python, MATLAB, JavaScript, TypeScript, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, Express.js, Next.js, Flutter} \\ 
+     \textbf{Database}{: PHP, MySQL, MongoDB, Firebase Firestore} \\ 
+     \textbf{DevOps}{: Git and GitHub, Docker, Amazon Web Services} \\
+     \textbf{Platforms}{: Linux, Windows}
+    }}
+ \end{itemize}
+
+ %-----------CERTIFIED COURSES-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.hackerrank.com/certificates/dd8f41e196fa} {Python}}{HackerRank}{March 2022}{}
+    \resumeSubheading
+      {\href{https://www.linkedin.com/learning/certificates/f1ad0fee7918badf79380b7ca9f8150092891eb43e30236ca0efa3602884c9bd?u=229219690}{Android Development}}
+      {Linkedin Learning}{Sep 2024}{}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
